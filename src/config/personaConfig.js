@@ -3,7 +3,7 @@
 // ------------------------------------------
 import { atom } from 'recoil';
 
-export const personalizationImpact = 98;
+export const personalizationImpact = 100;
 
 // ------------------------------------------
 // This const defines the personas available for personalisation
@@ -25,16 +25,16 @@ export const personaConfig = [
   {
     value: '',
     label: 'Emma',
-    description: 'Emma James is a woman who likes DIY art',
+    description: 'Emma James is a woman who have childs',
     type: 'persona',
-    personalizationFilters: ["category.lvl1:'Home > Pets'<score=1>"],
+    personalizationFilters: ["category.lvl1:Home > Toys<score=1>"],
   },
   {
     value: '',
     label: 'John',
     description: 'John is a man who bought furnitures',
     type: 'persona',
-    personalizationFilters: ["category.lvl1:'Home > Garden & Outdoor'<score=1>"],
+    personalizationFilters: ["category.lvl1:Home > Garden & Outdoor<score=1>", "brand: Wilko<score=1>"],
   },
 ];
 
