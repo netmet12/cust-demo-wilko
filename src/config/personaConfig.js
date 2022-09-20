@@ -27,7 +27,7 @@ export const personaConfig = [
     label: 'Emma',
     description: 'Emma James is a woman who have childs',
     type: 'persona',
-    personalizationFilters: ["category.lvl1:Home > Toys<score=1>"],
+    personalizationFilters: ["category.lvl1:Home > Toys<score=1>", "brand: Wham<score=1>"],
   },
   {
     value: '',

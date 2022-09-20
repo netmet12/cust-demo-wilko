@@ -20,12 +20,7 @@ const SearchInCategory = ({ state }) => {
       <div className="searchbox__category">
         <p>
           {t('searchInCategory')}{' '}
-          {state.action
-            .split(':')[1]
-            .split('>')
-            .pop()
-            .replace("'", '')
-            .slice(0, -1)}
+          {state.action.split(':')[1].split('>').pop().replace("'", '')}
         </p>
         <span
           onClick={() => {
